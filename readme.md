@@ -6,6 +6,8 @@ Setup: Perform the following task to setup the server
 * docker compose up
 
 Curl: Import the curl in postman to use the api.
+
+
 curl --location 'http://0.0.0.0:8006/apis/compliance_check' \
 --header 'Content-Type: application/json' \
 --data '{
